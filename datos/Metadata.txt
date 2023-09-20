@@ -1,0 +1,25 @@
+Diccionario de datos dataset lecturas:
+
+'_id': "ObjectId(""635ae316c937507afde0f312"")", String que contiene el tipo de dato ObjectId de MongoDB correspondiente al id de lectura.
+'consecutivo': 223708, Entero que almacena el consecutivo del fotocontrol al que corresponde la lectura.
+'latitud': 5.117192058715601, Float que almacena la latitud de la ubiacaión del fotocontrol.
+'longitud': -74.48038555067617, Float que almacena la longitud de la ubiacaión del fotocontrol.
+'estado': true, Booleano que almacena el valor booleano correspondiente a si una lectura está activa o ha sido eliminada.
+'zona': "ObjectId(""635ad58b54de85632f87c253"")", String que contiene el tipo de dato ObjectId de MongoDB correspondiente al id de zona donde se encuentra instalado el fotocontrol.
+'zona_id': "635ad58b54de85632f87c253", String que almacena el id de la zona donde está ubicado el fotocontrol.
+'usuario_creador': "ObjectId(""635ad47c54de85632f87c207"")", String que contiene el tipo de dato ObjectId de MongoDB correspondiente al id del usuario que creó la lectura.
+'fecha_creacion': "2022-10-27T19:59:18.034Z", String con la fecha y hora de creación de la lectura.
+'fecha_modificacion': "2023-09-20T01:37:05.761Z", String con la fecha y hora de modificación de la lectura.
+'__v': 0, Entero donde se almacena la versión del registro, propio de MongoDB, cambia si ha sido modificada la lectura.
+'fecha_ultima_lectura' "2023-09-20T01:37:05.000Z", String que almacena la fecha en que se recibió la última lectura. 
+'ultima_energia_activa_reportada: 315.6', Float que almacena el valor de la ultima energía activa reportada.
+'ultima_intensidad_luz_reportada': 0, Entero entre 0 y 4095 que almacena el valor de la intensidad de la luz reportada, 0 es poca luz, 4095 máxima luz. 
+'ultimo_estado_luminaria_reportado': "Encendida", String que almacena el estado de la carga del fotocontrol, "Encendida" si está alimentando la carga y "Apagada" si no está alimentando la carga.
+'ultimo_modo_operacion_reportado': "Automático", String que almacena el modo de funcionamiento configurado reportado por fotocontrol, "Automático" si funciona con la intensidad de luz recibida y "Manual", si se ha mandado a encender o apagar de modo manual. 
+'energia_activa_ultimo_encendido': 315.4, Float que almacena el valor de la energía activa reportado por el fotocontrol antes de encender la última vez.
+'fecha_ultima_solicitud': "2023-02-12T19:16:46.000Z", String que almacena la fecha en que se mandó a encender, apagar o funcionar de modo automático el fotocontrol. 
+'ultima_solicitud_enviada': "Encender", String que almacena la última solicitud enviada, "Encender" para encender la luminaria, "Apagar" para apagar el fotocontrol"
+'ultimo_modo_operacion_enviado': "Automático", String que almacena el último modo de funcionamiento del fotocontrol enviado, "Automático" para funcionamiento con la intensidad de luz sensada y "Manual" para que encienda o apague de modo manual.
+'usuario_modificador': "ObjectId(""635ad47c54de85632f87c207"")", String que contiene el tipo de dato ObjectId de MongoDB correspondiente al id del usuario que modificó la lectura.
+
+El dataset actual contiene 174199 registros.
