@@ -1,1 +1,3 @@
-# Proyecto_ciencia_de_datos
+# Caracterización del comportamiento del gasto energético del alumbrado público en Cundinamarca
+
+Este repositorio contiene archivos relacionados al proyecto que se aborda en el curso de Ciencia de datos (Electiva técnica III). El proyecto se basa en los datos generados en el proyecto "Incremento en las estrategias sustentables en el uso del recurso de energía eléctrica para la población vulnerable en el departamento de Cundinamarca," llevado a cabo por el Centro Internacional de Física (CIF), el cuál representa un enfoque innovador para abordar el consumo de energía de alumbrado público en algunos municipios de Cundinamarca. Este proyecto consiste en la implementación de fotocontroles inteligentes en cada luminaria, permitiendo el control remoto en tiempo real del alumbrado público, y la recolección de datos valiosos, que pueden ser usados para analizar estadísticamente y prever el comportamiento futuro del consumo energético.
